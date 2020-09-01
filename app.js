@@ -5,13 +5,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const squares = [];
     let score = 0;
     
+    // const candyColors = [
+    //   'red',
+    //   'yellow',
+    //   'orange',
+    //   'purple',
+    //   'green',
+    //   'blue'
+    // ];
+
     const candyColors = [
-      'red',
-      'yellow',
-      'orange',
-      'purple',
-      'green',
-      'blue'
+      'url(assets/red.png)',
+      'url(assets/yellow.png)',
+      'url(assets/orange.png)',
+      'url(assets/purple.png)',
+      'url(assets/green.png)',
+      'url(assets/blue.png)'
     ];
     
     
